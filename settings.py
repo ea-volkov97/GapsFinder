@@ -1,10 +1,10 @@
 # Настройки базы данных
 DATABASE_SETTINGS = {
     "database_name": "surfaces",
-    "host": "localhost",
+    "host": "127.0.0.1",
     "user": "username",
     "password": "1234",
-    "port": 5000
+    "port": 5432
 }
 
 # Кол-во генерируемых поверхностей

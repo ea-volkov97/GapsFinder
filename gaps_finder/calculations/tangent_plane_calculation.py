@@ -1,6 +1,6 @@
 from typing import List
 
-from gaps_finder.Vector3 import Vector3
+from gaps_finder.vector3 import Vector3
 from gaps_finder.surface import Surface
 from gaps_finder.plane import Plane
 

@@ -1,6 +1,6 @@
 from typing import List
 
-from gaps_finder.Vector3 import Vector3
+from gaps_finder.vector3 import Vector3
 from gaps_finder.grid import Grid
 from gaps_finder.utils.utils import get_mass_center_position
 

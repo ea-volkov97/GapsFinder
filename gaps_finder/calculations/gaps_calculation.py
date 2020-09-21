@@ -2,13 +2,8 @@
 Расчет зазоров между плоскостью и поверхностью заготовки
 """
 
-import numpy as np
-
-from gaps_finder.Vector3 import Vector3
-from gaps_finder.models import get_engine
-# from gaps_finder.models import surface
 from gaps_finder.plane import Plane
-from gaps_finder.settings import DATABASE_SETTINGS
+from settings import DATABASE_SETTINGS
 from gaps_finder.surface import Surface
 
 
@@ -23,7 +18,6 @@ def get_gaps(surface: Surface, plane: Plane):
 
 
 def main():
-    engine = get_engine(**DATABASE_SETTINGS)
 
     return 0
 

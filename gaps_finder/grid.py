@@ -1,6 +1,6 @@
 import numpy as np
 
-from gaps_finder.Vector3 import Vector3
+from gaps_finder.vector3 import Vector3
 
 
 class Grid:

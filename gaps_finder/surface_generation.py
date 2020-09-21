@@ -3,15 +3,12 @@
 """
 
 from itertools import combinations
-from typing import List
 
 import numpy as np
 
-from gaps_finder.Vector3 import Vector3
 from gaps_finder.grid import Grid
 
-from gaps_finder.settings import (
-    DATABASE_SETTINGS,
+from settings import (
     GENERATION_TRIES_COUNT,
     SURFACE_LENGTH,
     SURFACE_WIDTH,

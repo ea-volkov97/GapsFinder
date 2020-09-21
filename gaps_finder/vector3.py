@@ -61,8 +61,41 @@ class Vector3:
         else:
             return False
 
-    def dot(self, vector1, vector2) -> float:
+    @staticmethod
+    def dot_product(vector1, vector2) -> float:
+        """
+        Возвращает скалярное произведение двух векторов.
+        :param vector1:
+        :param vector2:
+        :return:
+        """
         return vector1.x * vector2.x + vector1.y * vector2.y + vector1.z * vector2.z
+
+    @staticmethod
+    def is_collinear(vector1, vector2) -> bool:
+        """
+        Возвращает True, если векторы коллинеарны.
+        :param vector1:
+        :param vector2:
+        :return:
+        """
+        if Vector3.dot_product(vector1, vector2) == 1:
+            return True
+        else:
+            return False
+
+    @staticmethod
+    def is_orthogonal(vector1, vector2) -> bool:
+        """
+        Возвращает True, если векторы ортогональны.
+        :param vector1:
+        :param vector2:
+        :return:
+        """
+        if Vector3.dot_product(vector1, vector2) == 0:
+            return True
+        else:
+            return False
 
     def __add__(self, other):
         return Vector3(self.x + other.x, self.y + other.y, self.z + other.z)

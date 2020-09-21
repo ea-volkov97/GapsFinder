@@ -1,7 +1,7 @@
 from typing import List
 
 import numpy as np
-from gaps_finder.Vector3 import Vector3
+from gaps_finder.vector3 import Vector3
 
 
 def get_triangle_square_from_three_points(point1: Vector3, point2: Vector3, point3: Vector3):

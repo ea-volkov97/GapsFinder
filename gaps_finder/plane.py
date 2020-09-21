@@ -1,4 +1,4 @@
-from gaps_finder.Vector3 import Vector3
+from gaps_finder.vector3 import Vector3
 from gaps_finder.utils.utils import get_plane_equation_coefficients
 
 
